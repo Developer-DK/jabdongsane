@@ -14,7 +14,7 @@ int main()
     float res      = 0;
     float ppo    = 0;
     
-    printf("몇분? : ");
+    printf("How much lifted? : ");
     scanf("%d", &minutes);
     
     res = minutes / 140.0;
@@ -149,7 +149,8 @@ int main()
         // }
     }
     
-    printf("나는 오늘 %.3f 만큼 부셨다\n", ppo);
-
+    printf("I get lifted %.3f\nTime is %.1f\n", ppo, ppo * 25 / 60.0);
+    
     return 0;
 }
+
